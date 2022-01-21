@@ -1,0 +1,133 @@
+
+body{
+    width:1440px;
+    height: auto;
+    margin: auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+}
+li{
+    display: inline;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 100px;
+}
+.main a{
+    text-decoration: none;
+    color: grey;
+    font-weight:400 700;
+}
+  
+.section1{
+    width: 1440px;
+    height: 300px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom:70px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 35px;
+  
+}
+.section img{
+    width: 500px;
+    height:300px;
+}
+.section2{
+    width: 1440px;
+    height: 500px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 35px;
+
+}
+.block2{
+    background-image:url(./images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}
+p{
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: initial;
+}
+.input{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap:10px;
+}
+input{
+    width:230px;
+    height:25px;
+}
+button{
+    width:150px;
+    height:31px;
+    background-color:hsl(224, 93%, 58%);
+    color: white;
+}
+.link{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.link img{
+    width: 25px;
+    height: 20px;
+}
+.link a{
+    color:hsl(170, 45%, 43%);
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    border:10px solid white;
+    background-color: white;
+    width:250px;
+    height: 220px;
+    margin-top: 20px;
+}
+.white img{
+    width: 25px;
+    height: 15px;
+}
+
+.ceo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:15px;
+}
+.ceo img{
+    width:50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.kyle{
+  display:block;
+}
+.kyle H4{
+    padding-bottom: 2px;
+    font-weight: bolder;
+}
+.kyle p{
+    font-size:10px;
+}
+.section text{
+    height: 600px;
+}
